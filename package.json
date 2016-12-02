@@ -1,0 +1,23 @@
+{
+  "name": "dano-api",
+  "version": "1.0.0",
+  "description": "API for displaying real time data on Norfolk flood conditions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinothepro/dano-api.git"
+  },
+  "keywords": [],
+  "author": "Sean Tolentino <dev@seantolentino.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinothepro/dano-api/issues"
+  },
+  "homepage": "https://github.com/tinothepro/dano-api#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
