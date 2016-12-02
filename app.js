@@ -1,9 +1,19 @@
-var express = require('express');
-
+var express = require("express");
 var app = express();
+var bodyParser = require("body-parser");
 
-var port = process.env.PORT || 3000;
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
-app.listen(port, function() {
-  console.log("Running on port " + port);
+var port = process.env.PORT || 8080;
+
+var router = express.Router(); // Instantiate express router
+
+router.get("/", function(req, res){
+    res.json({ message: "Hello, World!"});
 });
+
+app.use("/api", router);
+
+app.listen(port);
+console.log("Server is listening on port " + port);
