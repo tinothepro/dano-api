@@ -115,7 +115,7 @@ section ul li:before {
 }
 
 .meter {
-
+padding: 0;
 }
 /*--------------------
 1.1 Reset bootstrap
@@ -587,6 +587,9 @@ figure.effect-bubba:hover p {
 	width: auto !important;
 }
 
+.audiences {
+  margin-bottom: 70px;
+}
 .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #179fff;
 }
