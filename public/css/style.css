@@ -1,0 +1,10 @@
+.box {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+}
+
+.box ul li {
+  list-style: none;
+}

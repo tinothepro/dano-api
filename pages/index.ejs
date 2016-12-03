@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <h1>Dano!</h1>
+  <p>We have collected several data sets from various areas: </p>
+
+
+
+
+
+  <% results.forEach(function(result) { %>
+    <div class="box">
+      <ul>
+        <li>Zip Code: <%= result.zipCode %></li>
+        <li>City: <%= result.city %></li>
+        <li>Current Water Level: <%= result.waterLevel %></li>
+      </ul>
+    </div>
+  <% }); %>
+
+</body>
+</html>
