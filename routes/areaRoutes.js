@@ -19,8 +19,9 @@ var routes = function (Area) {
         res.status(500).send(err);
       } else {
         //res.json(areas);
-        var results = areas;
 
+        var results = areas;
+console.log(results);
         res.render('index', {
           results: results,
         });
